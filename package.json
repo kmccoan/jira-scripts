@@ -1,0 +1,22 @@
+{
+  "name": "jira-attachment-uploader",
+  "version": "1.0.0",
+  "description": "A Node.js script to upload Jira attachments from a CSV file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "csv-parser": "^3.0.0",
+    "form-data": "^4.0.0",
+    "csv-writer": "^1.6.0",
+    "csv-stringify": "^6.4.6",
+    "csv-parse": "^5.5.5"
+  }
+}
